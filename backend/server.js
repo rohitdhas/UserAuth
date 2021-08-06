@@ -12,7 +12,7 @@ const User = require("./user");
 
 // Database
 const dbURI =
-  "mongodb+srv://rohitdhas:tihor@userauthentication.niie7.mongodb.net/users?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@userauthentication.niie7.mongodb.net/users?retryWrites=true&w=majority";
 mongoose.connect(
   dbURI,
   {
